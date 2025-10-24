@@ -2,30 +2,25 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Select Questions - NPTEL Quiz</title>
+  <title>Select Number of Questions</title>
   <link rel="stylesheet" href="style21.css">
 </head>
 <body>
   <div class="container">
-    <h1>Select Number of Questions</h1>
-    <p>Choose how many questions you want to attempt:</p>
-
-    <div>
-      <button onclick="startQuiz(10)">10 Questions</button>
-      <button onclick="startQuiz(20)">20 Questions</button>
-      <button onclick="startQuiz(50)">50 Questions</button>
-      <button onclick="startQuiz(100)">100 Questions</button>
-    </div>
-
-    <button onclick="window.location.href='index.html'">🏠 Back to Home</button>
+    <h1>Choose Number of Questions</h1>
+    <p>Select how many questions you want to attempt:</p>
+    
+    <button onclick="startQuiz(10)">10 Questions</button>
+    <button onclick="startQuiz(20)">20 Questions</button>
+    <button onclick="startQuiz(50)">50 Questions</button>
+    <button onclick="startQuiz(100)">100 Questions</button>
+    <button onclick="startQuiz('all')">All Questions</button>
   </div>
 
   <script>
     function startQuiz(count) {
-      // Save selected number in localStorage
-      localStorage.setItem("numQuestions", count);
-      // Redirect to quiz page
-      window.location.href = "quiz20.html";
+      // Pass the selected number of questions to the quiz page
+      window.location.href = `quiz20.html?count=${count}`;
     }
   </script>
 </body>
