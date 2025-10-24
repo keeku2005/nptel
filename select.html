@@ -4,6 +4,35 @@
   <meta charset="UTF-8">
   <title>Select Number of Questions</title>
   <link rel="stylesheet" href="style21.css">
+  <style>
+    .container {
+      text-align: center;
+      margin-top: 50px;
+    }
+
+    button {
+      padding: 12px 25px;
+      margin: 10px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 16px;
+      border: none;
+      background-color: #007BFF;
+      color: white;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+
+    .home-btn {
+      background-color: #6c757d;
+    }
+
+    .home-btn:hover {
+      background-color: #5a6268;
+    }
+  </style>
 </head>
 <body>
   <div class="container">
@@ -17,18 +46,19 @@
     <button onclick="startQuiz('all')">All Questions</button>
     
     <hr>
-    <button onclick="goHome()" style="background-color:#6c757d;">Back to Home</button>
+    <button class="home-btn" onclick="goHome()">Back to Home</button>
   </div>
 
   <script>
     function startQuiz(count) {
+      // Navigate to quiz page and pass selected count
       window.location.href = `quiz20.html?count=${count}`;
     }
 
     function goHome() {
-      window.location.href = "index.html"; // Replace with your main home page file
+      // Navigate to main home page
+      window.location.href = "index.html"; // Make sure index.html is in the same folder
     }
   </script>
 </body>
 </html>
-
