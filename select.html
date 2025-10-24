@@ -15,12 +15,18 @@
     <button onclick="startQuiz(50)">50 Questions</button>
     <button onclick="startQuiz(100)">100 Questions</button>
     <button onclick="startQuiz('all')">All Questions</button>
+    
+    <hr>
+    <button onclick="goHome()" style="background-color:#6c757d;">Back to Home</button>
   </div>
 
   <script>
     function startQuiz(count) {
-      // Pass the selected number of questions to the quiz page
       window.location.href = `quiz20.html?count=${count}`;
+    }
+
+    function goHome() {
+      window.location.href = "index20.html"; // Replace with your main home page file
     }
   </script>
 </body>
