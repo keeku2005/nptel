@@ -567,7 +567,944 @@ const questions = [
       "Emotional literacy"
     ],
     answer:"Emotional literacy"
+  },
+  {
+    numb: 48,
+    question: "48._____ is the type of diversity in the context of education which refers to the numerical & proportional representation of students from diverse groups in the student population",
+    answer: "Structural diversity",
+    options: [
+      "Structural diversity",
+      "Numerical diversity",
+      "Proportionate diversity",
+      "Interactional diversity",
+      "Constructional diversity"
+    ]
+  },
+  {
+    numb:49,
+    question: "49.Each type of diversity is ___",
+    answer: "complementary to each other",
+    options: [
+      "complementary to each other",
+      "competitive in nature",
+      "independent of each other",
+      "detrimental to each other",
+      "none of the above"
+    ]
+  },
+  {
+    numb:50,
+    question: "50._____ refers to an understanding that certain common values exist across diverse ethnic groups & group conflict often can be constructive if used appropriately",
+    answer: "Compatibility of differences",
+    options: [
+      "Civic engagement",
+      "Compatibility of differences",
+      "Cultural engagement",
+      "Learning outcomes",
+      "Differential engagement"
+    ]
+  },
+  {
+    numb:51,
+    question: "51.Major transformations in knowledge sector due to globalization and IT revolution include",
+    answer: "all of the above",
+    options: [
+      "virtual universities",
+      "e-courses",
+      "app based learning",
+      "online packages",
+      "all of the above"
+    ]
+  },
+  {
+    numb: 52,
+    question: "52.In India, the Ministry of Human Resource Development has taken some initiatives like implementing NAB, where NAB stands for",
+    answer: "National Accreditation Board",
+    options: [
+      "National Award Board",
+      "National Award Bureau",
+      "National Accreditation Bureau",
+      "National Acceptance Board",
+      "National Accreditation Board"
+    ]
+  },
+  {
+    numb:53,
+    question: "53.Due to escalating fees in developed nations, the students from these countries are choosing to study & take their degrees from ___",
+    answer: "both a & b",
+    options: [
+      "reputed institutes of developing Asian countries",
+      "online courses",
+      "both a & b",
+      "none of the above"
+    ]
+  },
+  {
+    numb:54,
+    question: "54.Which of the following has been observed to be true for new generation learners?",
+    answer: "a, b and c",
+    options: [
+      "expect a pass for anything they submit, irrespective of its quality",
+      "not as self-reliant as the previous generations",
+      "use the peer group reference for making any academic decision like where to enroll & which subject to take",
+      "only c",
+      "a, b and c"
+    ]
+  },
+  {
+    numb:55,
+    question: "55.The higher education sector of which countries is larger than that of India?",
+    answer: "China and the U.S.A.",
+    options: [
+      "China and the U.S.A.",
+      "Japan and China",
+      "China and Singapore",
+      "USA and Bangladesh",
+      "Canada and Singapore"
+    ]
+  },
+  {
+    numb:56,
+    question: "56.Taiwan being the major designer of IT hardware is also considering the making of ___ by merging some of its top technological universities",
+    answer: "'Asian MIT'",
+    options: [
+      "'Asian MIT'",
+      "'Asian Oxford'",
+      "'Asian Harvard'",
+      "'Asian Cambridge'",
+      "None of the above"
+    ]
+  },
+  {
+    numb: 57,
+    question: "57.The three major areas to be considered in the pedagogical approach of enhancing students' understanding of international contexts, competition & the meaning of globalization include the following except",
+    answer: "money",
+    options: [
+      "linguistics",
+      "money",
+      "curriculum",
+      "leadership"
+    ]
+  },
+  {
+    numb: 58,
+    question: "58._____ is the type of diversity in the context of education which refers to the numerical & proportional representation of students from diverse groups in the student population",
+    answer: "Structural diversity",
+    options: [
+      "Structural diversity",
+      "Numerical diversity",
+      "Proportionate diversity",
+      "Interactional diversity",
+      "Constructional diversity"
+    ]
+  },
+  {
+    numb:59,
+    question: "59.Each type of diversity is ___",
+    answer: "complementary to each other",
+    options: [
+      "complementary to each other",
+      "competitive in nature",
+      "independent of each other",
+      "detrimental to each other",
+      "none of the above"
+    ]
+  },
+  {
+    numb:60,
+    question: "60._____ refers to an understanding that certain common values exist across diverse ethnic groups & group conflict often can be constructive if used appropriately",
+    answer: "Compatibility of differences",
+    options: [
+      "Civic engagement",
+      "Compatibility of differences",
+      "Cultural engagement",
+      "Learning outcomes",
+      "Differential engagement"
+    ]
+  },
+  {
+    numb: 61,
+    question: "61.Major transformations in knowledge sector due to globalization and IT revolution include",
+    answer: "all of the above",
+    options: [
+      "virtual universities",
+      "e-courses",
+      "app based learning",
+      "online packages",
+      "all of the above"
+    ]
+  },
+  {
+    numb:62,
+    question: "62.In India, the Ministry of Human Resource Development has taken some initiatives like implementing NAB, where NAB stands for",
+    answer: "National Accreditation Board",
+    options: [
+      "National Award Board",
+      "National Award Bureau",
+      "National Accreditation Bureau",
+      "National Acceptance Board",
+      "National Accreditation Board"
+    ]
+  },
+  {
+    numb: 63,
+    question: "63.Due to escalating fees in developed nations, the students from these countries are choosing to study & take their degrees from ___",
+    answer: "both a & b",
+    options: [
+      "reputed institutes of developing Asian countries",
+      "online courses",
+      "both a & b",
+      "none of the above"
+    ]
+  },
+  {
+    numb: 64,
+    question: "64.Which of the following has been observed to be true for new generation learners?",
+    answer: "a, b and c",
+    options: [
+      "expect a pass for anything they submit, irrespective of its quality",
+      "not as self-reliant as the previous generations",
+      "use the peer group reference for making any academic decision like where to enroll & which subject to take",
+      "only c",
+      "a, b and c"
+    ]
+  },
+  {
+    numb:65,
+    question: "65.The higher education sector of which countries is larger than that of India?",
+    answer: "China and the U.S.A.",
+    options: [
+      "China and the U.S.A.",
+      "Japan and China",
+      "China and Singapore",
+      "USA and Bangladesh",
+      "Canada and Singapore"
+    ]
+  },
+  {
+    numb:66,
+    question: "66.Taiwan being the major designer of IT hardware is also considering the making of ___ by merging some of its top technological universities",
+    answer: "'Asian MIT'",
+    options: [
+      "'Asian MIT'",
+      "'Asian Oxford'",
+      "'Asian Harvard'",
+      "'Asian Cambridge'",
+      "None of the above"
+    ]
+  },
+  {
+    numb:67,
+    question: "67.The three major areas to be considered in the pedagogical approach of enhancing students' understanding of international contexts, competition & the meaning of globalization include the following except",
+    answer: "money",
+    options: [
+      "linguistics",
+      "money",
+      "curriculum",
+      "leadership"
+    ]
+  },
+  {
+    numb: 68,
+    question: "68.The new paradigms of education advocate for ___",
+    answer: "All of the above",
+    options: [
+      "'No child left behind'",
+      "Personalized learning assistance",
+      "Quality education to all",
+      "All of the above"
+    ]
+  },
+  {
+    numb: 69,
+    question: "69.Which of the following is true for metacognition?",
+    answer: "It can occur before the event, after the event or simultaneously",
+    options: [
+      "It occurs before the cognitive event",
+      "It occurs after the cognitive event",
+      "It occurs simultaneously with the cognitive event",
+      "It can occur before the event, after the event or simultaneously",
+      "none of the above"
+    ]
+  },
+  {
+    numb:70,
+    question: "70.___ knowledge is knowing about when & why declarative & procedural knowledge are relevant to tasks (effective strategies)",
+    answer: "Conditional",
+    options: [
+      "Conceptual",
+      "Contextual",
+      "Conditional",
+      "Causational",
+      "Creative"
+    ]
+  },
+  {
+    numb:71,
+    question: "71.___ is the fit between meta-cognition & performance",
+    answer: "Calibration",
+    options: [
+      "Calibration",
+      "Meta-cognitive monitoring",
+      "Meta-cognitive control",
+      "Self-regulated learning",
+      "Correlation"
+    ]
+  },
+  {
+    numb: 72,
+    question: "72.Which of the following is not a dimension of the learning environment focused on by cognitive apprenticeship?",
+    answer: "Communication",
+    options: [
+      "Content",
+      "Method",
+      "Sequence",
+      "Sociology",
+      "Communication"
+    ]
+  },
+  {
+    numb:73,
+    question: "73.Which of the following is an experiential learning method?",
+    answer: "All of the above",
+    options: [
+      "Role-play",
+      "Visualization",
+      "Simulation",
+      "All of the above"
+    ]
+  },
+  {
+    numb: 74,
+    question: "74.___ learning includes presentation of lessons through multimedia material i.e. text, animation, graphics, video & sound",
+    answer: "Web-based",
+    options: [
+      "Problem-based",
+      "Web-based",
+      "Information-based",
+      "Collaborative",
+      "None of the above"
+    ]
+  },
+  {
+    numb:75,
+    question: "75.Games are based on the theory of ___ as they use fantasy, control, challenge, curiosity & adventure to motivate players.",
+    answer: "intrinsic motivation",
+    options: [
+      "fantasy",
+      "extrinsic motivation",
+      "intrinsic motivation",
+      "imagination",
+      "none of the above"
+    ]
+  },
+  {
+    numb: 76,
+    question: "76.Which of the following is an innovative pedagogy of learning?",
+    answer: "All of the above",
+    options: [
+      "Game-based learning",
+      "Mobile learning",
+      "Puzzle-based learning",
+      "Project - based learning",
+      "All of the above"
+    ]
+  },
+  {
+    numb: 77,
+    question: "77.In ___ model of blended learning, most learning is done in the online environment; face-to-face teaching is still available, but for small groups / individuals on a requirement basis.",
+    answer: "flex",
+    options: [
+      "online lab",
+      "rotation",
+      "flex",
+      "self blend",
+      "online driver"
+    ]
+  },
+  {
+    numb: 78,
+    question: "78.Turnaround Leadership brings together a distinct profile of ___ & cognitive ability",
+    answer: "emotional intelligence",
+    options: [
+      "emotional intelligence",
+      "musical intelligence",
+      "spatial intelligence",
+      "naturalistic intelligence",
+      "none of the above"
+    ]
+  },
+  {
+    numb:79,
+    question: "79.Which of the following is a role taken up by turnaround leaders?",
+    answer: "All of the above",
+    options: [
+      "Learn",
+      "Teach",
+      "Model",
+      "All of the above"
+    ]
+  },
+  {
+    numb: 80,
+    question: "80.___ means possessing requisite capacity & knowledge required for management, possessing the key skills & knowledge required to deliver the tasks that make up the specific job",
+    answer: "Competence",
+    options: [
+      "Competence",
+      "Interest",
+      "Cognitive capacity",
+      "Creative intelligence",
+      "None of the above"
+    ]
+  },
+  {
+    numb:81,
+    question: "81.Which of the following is not a dimension of the 'Turnaround Academic Leadership Capability Framework'?",
+    answer: "Athletic competencies",
+    options: [
+      "Personal capabilities",
+      "Interpersonal capabilities",
+      "Cognitive capabilities",
+      "Role-specific competencies",
+      "Athletic competencies"
+    ]
+  },
+  {
+    numb: 82,
+    question: "82.ICT for supporting learning on-line courses for distance - learning through ___",
+    answer: "all of the above",
+    options: [
+      "multimedia resources",
+      "e-conferencing & video conferences",
+      "discussion forums",
+      "live lectures (video streaming)",
+      "all of the above"
+    ]
+  },
+  {
+    numb: 83,
+    question: "83.Turnaround leaders can manage relationships with stakeholders through ___",
+    answer: "All the above",
+    options: [
+      "Building a sustainable learning community",
+      "Monitoring & self-evaluation",
+      "Networking with other agencies",
+      "Performance evaluation & management",
+      "All the above"
+    ]
+  },
+  {
+    numb: 84,
+    question: "84.___ is the term for using a combination of competition & cooperation for bringing change within the system",
+    answer: "Co-opetitions",
+    options: [
+      "Compete-eration",
+      "Co-opetitions",
+      "Collaborative competition",
+      "Combinative cooperation",
+      "None of the above"
+    ]
+  },
+  {
+    numb: 85,
+    question: "85.Which of the following is not an attitude under the 'Entrepreneurship Competencies Model'?",
+    answer: "Procrastination",
+    options: [
+      "Self-efficacy",
+      "Proactiveness",
+      "Procrastination",
+      "Innovativeness",
+      "Perseverance"
+    ]
+  },
+  {
+    numb:86,
+    question: "86.___ is a factor in the 'Academic Entrepreneurship-cum-Performance' model",
+    answer: "All of the above",
+    options: [
+      "Academic mindset",
+      "Academic perseverance",
+      "Academic behaviors",
+      "Social skills",
+      "All of the above"
+    ]
+  },
+  {
+    numb: 87,
+    question: "87.By taking the role of a ___ educational entrepreneurs demonstrate what is possible when resources are used differently & point the way toward how policy & practice might be changed in the light of what they accomplish.",
+    answer: "change agent",
+    options: [
+      "change agent",
+      "content agent",
+      "context agent",
+      "private agent",
+      "none of the above"
+    ]
+  },
+  {
+    numb: 88,
+    question: "88.___ refers to independent learning where students learn at their own pace in different times and spaces.",
+    answer: "asynchronous learning",
+    options: [
+      "whenever and wherever learning",
+      "synchronous learning",
+      "asynchronous learning",
+      "paced learning",
+      "none of the above"
+    ]
+  },
+  {
+    numb:89,
+    question: "89.Zoom, MS Teams or Google meet classes held during the pandemic refer to ___ type of learning.",
+    answer: "synchronous learning",
+    options: [
+      "synchronous learning",
+      "asynchronous learning",
+      "synthetic learning",
+      "none of the above"
+    ]
+  },
+  {
+    numb:90,
+    question: "90.Which of the following is true regarding teachers' role in online learning during the pandemic?",
+    answer: "All of the above",
+    options: [
+      "Increased focus on individual needs and learning styles",
+      "Increased expectancy to be available for students",
+      "Encourage collaboration for motivation",
+      "Encourage higher participation through creative methods",
+      "All of the above"
+    ]
+  },
+  {
+    numb: 91,
+    question: "91.Which of the following is not an effective way to motivate online learners?",
+    answer: "Establishing a sense of social isolation",
+    options: [
+      "Establishing a sense of social isolation",
+      "Online collaboration",
+      "Prompt feedback",
+      "Designing and organizing activities"
+    ]
+  },
+  {
+    numb: 92,
+    question: "92.Which of the following is not a component of the 3Cs useful in the post-pandemic new normal education setting?",
+    answer: "Caste",
+    options: [
+      "Consistency",
+      "Caste",
+      "Creativity",
+      "Community"
+    ]
+  },
+  {
+    numb: 93,
+    question: "93.High levels of digital task engagement may result in ___",
+    answer: "All of the above",
+    options: [
+      "conceptual change",
+      "psychological well being",
+      "improved understanding about students'",
+      "All of the above"
+    ]
+  },
+  {
+    numb: 94,
+    question: "94.Which of the following does not come under the 5E framework in the context of online flipped classes?",
+    answer: "evacuate",
+    options: [
+      "engage",
+      "evacuate",
+      "explore",
+      "explain",
+      "evaluate"
+    ]
+  },
+  {
+    numb: 95, 
+    question: "95.Effective feedback is ___.",
+    answer: "all of the above",
+    options: [
+      "specific",
+      "descriptive",
+      "student-initiated",
+      "time appropriate",
+      "all of the above"
+    ]
+  },
+  {
+    numb: 96,
+    question: "96.Mid-term and end-term exams are types of ___",
+    answer: "summative assessment",
+    options: [
+      "summative assessment",
+      "collective assessment",
+      "formative assessment",
+      "none of the above"
+    ]
+  },
+  {
+    numb: 97,
+    question: "97.Before feedback can be given, ___ clarifies learning intentions for students and sets the context for feedback.",
+    answer: "feed-up",
+    options: [
+      "feed-up",
+      "feedback loop",
+      "feed-forward",
+      "none of the above"
+    ]
+  },
+  {
+    numb: 98,
+    question: "98.Andragogy means the understanding of the science and practice of ___",
+    answer: "adult learning",
+    options: [
+      "adult learning",
+      "children learning",
+      "women learning",
+      "none of the above"
+    ]
+  },
+  {
+    numb:99,
+    question: "99.Which of the following is not a principle of andragogy?",
+    answer: "physical orientation",
+    options: [
+      "self-direction",
+      "experience",
+      "mentorship",
+      "transformation",
+      "physical orientation"
+    ]
+  },
+  {
+    numb: 100,
+    question: "100.The best micro-learning content is ___",
+    answer: "all of the above",
+    options: [
+      "under 6 minutes",
+      "focused on a single concept",
+      "specific to an objective",
+      "all of the above"
+    ]
+  },
+  {
+    numb: 101,
+    question: "101.Which of the following is not among the key metrics to show which courses are engaging learners, and which could use an instructional-design rethink?",
+    answer: "number of books purchased by learner",
+    options: [
+      "total time spent learning",
+      "learner progress",
+      "qualitative feedback",
+      "assessment breakdowns",
+      "number of books purchased by learner"
+    ]
+  },
+  {
+    numb: 102,
+    question: "102.Learning transfer is a process of ___",
+    answer: "internalizing, comprehending and applying",
+    options: [
+      "rote learning, memorizing and processing",
+      "memorizing, resting and applying",
+      "internalizing, ignoring, processing",
+      "comprehending, evaluating, applying",
+      "internalizing, comprehending and applying"
+    ]
+  },
+  {
+    numb: 103,
+    question: "103.The solution for the learning need of willingness is ___",
+    answer: "transferable skills",
+    options: [
+      "just-in-time learning",
+      "learner-analytics",
+      "social learning environment",
+      "transferable skills"
+    ]
+  },
+  {
+    numb: 104,
+    question: "104.Which of the following is a benefit of using LMS for self-paced learning?",
+    answer: "all of the above",
+    options: [
+      "collaborative social learning tools",
+      "chatting about ideas",
+      "useful resources",
+      "discussing difficult chapters",
+      "all of the above"
+    ]
+  },
+  {
+    numb: 105,
+    question: "105.Which of the following is not used to fulfill the need for learning by doing?",
+    answer: "lectures",
+    options: [
+      "simulations",
+      "animations",
+      "interactive-activities",
+      "experiential exercises",
+      "lectures"
+    ]
+  },
+  {
+    numb: 106,
+    question: "106.___ is also called \"Self-determined Learning\".",
+    answer: "Heutagogy",
+    options: [
+      "Heutagogy",
+      "Pedagogy",
+      "Ontology",
+      "Andragogy",
+      "None of the above"
+    ]
+  },
+  {
+    numb: 107,
+    question: "107.Which of the following is an example of lifelong learning?",
+    answer: "all of the above",
+    options: [
+      "developing a skill of cooking",
+      "learning a new language",
+      "learning how to use a new phone",
+      "enrolling in an educational degree",
+      "all of the above"
+    ]
+  },
+
+  {
+    numb: 108,
+    question: "108.NEP 2020 intends to achieve primarily which of the following Sustainable Development Goals (SDG)?",
+    answer: "SDG 4: Inclusive and equitable quality education",
+    options: [
+      "SDG 4: Inclusive and equitable quality education",
+      "SDG 6: Clean water and sanitation",
+      "SDG 8: Decent work and economic growth",
+      "none of the above"
+    ]
+  },
+  {
+    numb: 109,
+    question: "109.Which of the following is not included as a stage in the structure recommended by NEP 2020?",
+    answer: "Senior",
+    options: [
+      "Preparatory",
+      "Foundational",
+      "Secondary",
+      "Middle",
+      "Senior"
+    ]
+  },
+  {
+    numb: 110,
+    question: "110.What is the full form of NTA?",
+    answer: "National Testing Agency",
+    options: [
+      "New Testing Act",
+      "National Testing Act",
+      "New Testing Agency",
+      "National Testing Agency",
+      "None of the above"
+    ]
+  },
+  {
+    numb:111,
+    question: "111.In higher education system, the expected student-faculty ratio is ___.",
+    answer: "30:1",
+    options: [
+      "2:1",
+      "5:1",
+      "10:1",
+      "20:1",
+      "30:1"
+    ]
+  },
+  {
+    numb: 112,
+    question: "112.Which of the following is not a merit of higher education policies in NEP 2020?",
+    answer: "bureaucratic",
+    options: [
+      "student-centric",
+      "bureaucratic",
+      "autonomic",
+      "research and innovation focused"
+    ]
+  },
+  {
+    numb: 113,
+    question: "113.Contemplative education is a philosophy of higher education that integrates ___ and ___ into academic study.",
+    answer: "introspection and experiential learning",
+    options: [
+      "introspection and passive learning",
+      "networking and experiential learning",
+      "passive learning and assessment",
+      "introspection and experiential learning"
+    ]
+  },
+  {
+    numb: 114,
+    question: "114.Broadly, there are ___ main ways that contemplative practices are incorporated",
+    answer: "three",
+    options: [
+      "two",
+      "three",
+      "ten",
+      "five",
+      "fifteen"
+    ]
+  },
+  {
+    numb: 115,
+    question: "115.SEL stands for ___",
+    answer: "social-emotional learning",
+    options: [
+      "self-efficacy in learning",
+      "social effective learning",
+      "standard emotional learning",
+      "social-emotional learning"
+    ]
+  },
+  {
+    numb: 116,
+    question: "116.Open awareness (in the context of mindfulness) is also known as ___",
+    answer: "open monitoring",
+    options: [
+      "open systems",
+      "open mindedness",
+      "openness",
+      "open monitoring"
+    ]
+  },
+  {
+    numb: 117,
+    question: "117.___ component of transformative learning refers to experiences narrated/explained in a logical and rational manner that can bring about transformative learning.",
+    answer: "rational disclosure",
+    options: [
+      "rational disclosure",
+      "critical reflection",
+      "centrality of experience",
+      "disorienting dilemma",
+      "none of the above"
+    ]
+  },
+  {
+    numb: 118,
+    question: "118.The Sustainable Development Goals (SDGs), were adopted by all United Nations Member States in ___.",
+    answer: "2015",
+    options: [
+      "2015",
+      "2010",
+      "2019",
+      "2022",
+      "2023"
+    ]
+  },
+  {
+    numb: 119,
+    question: "119.SDGs replaced MDGs. In this context, what is the full form of 'MDGs'?",
+    answer: "Millennium Development Goals",
+    options: [
+      "Massive Development Goals",
+      "Millennium Development Goals",
+      "Micro Development Goals",
+      "None of the above"
+    ]
+  },
+  {
+    numb: 120,
+    question: "120.The aim of SDG 2 is ___.",
+    answer: "all of the above",
+    options: [
+      "end hunger",
+      "achieve food security",
+      "achieve improved nutrition",
+      "promote sustainable agriculture",
+      "all of the above"
+    ]
+  },
+  {
+    numb: 121,
+    question: "121.Which SDG focuses on investing in solar, wind and thermal power, improving energy productivity, and ensuring energy for all",
+    answer: "Goal 7",
+    options: [
+      "Goal 5",
+      "Goal 6",
+      "Goal 7",
+      "Goal 8",
+      "Goal 9"
+    ]
+  },
+  {
+    numb: 122,
+    question: "122.SDG 4 has been broken down into ___ number of targets based on the different roles to be fulfilled by different players in the institution",
+    answer: "ten",
+    options: [
+      "two",
+      "five",
+      "seven",
+      "ten"
+    ]
+  },
+  {
+    numb: 123,
+    question: "123.Which of the following is an essential characteristic of ESD?",
+    answer: "All of the above",
+    options: [
+      "promotes lifelong learning",
+      "is culturally appropriate",
+      "engages formal, non-formal and informal education",
+      "is interdisciplinary",
+      "All of the above"
+    ]
+  },
+  {
+    numb: 124,
+    question: "124.GCED is a strategic area of UNESCO's Education Sector programme and builds on the work of Peace and Human Rights Education. GCED stands for ___.",
+    answer: "Global Citizenship Education",
+    options: [
+      "Global Competitive Education and Development",
+      "Global Citizenship Education",
+      "Global Citizenship Education and Development",
+      "None of the above"
+    ]
+  },
+  {
+    numb: 125,
+    question: "125.Under the GCED umbrella, UNESCO has several special themes. Which of the following is included in them?",
+    answer: "all of the above",
+    options: [
+      "promotion of the rule of law through global citizenship education",
+      "preventing violent extremism through education",
+      "Languages in education",
+      "all of the above"
+    ]
+  },
+  {
+    numb: 126,
+    question: "126.In general citizenship education should result in educated people with certain characteristics. Among them, ___ refers to supporting a certain idea through reasoning.",
+    answer: "advocacy",
+    options: [
+      "advocacy",
+      "conciliation",
+      "representation",
+      "responsibility",
+      "research"
+    ]
+  },
+  {
+    numb: 127,
+    question: "127.Which of the following is not one of the sustainable leadership skills?",
+    answer: "think short term for immediate gains",
+    options: [
+      "manage complexity",
+      "communicate vision",
+      "exercise judgment",
+      "challenge and innovate",
+      "think short term for immediate gains"
+    ]
   }
 ];
+
 
 
