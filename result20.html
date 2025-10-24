@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Your Result</title>
+  <link rel="stylesheet" href="style21.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Quiz Completed!</h1>
+    <p id="score"></p>
+    <button onclick="window.location.href='index20.html'">Play Again</button>
+  </div>
+
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const score = params.get('score');
+    document.getElementById("score").innerText = `Your Score: ${score}`;
+  </script>
+</body>
+</html>

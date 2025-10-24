@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Select Quiz Type - NPTEL Quiz</title>
+  <link rel="stylesheet" href="style21.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Choose Number of Questions</h1>
+    <p>Select how many questions you want to attempt:</p>
+
+    <button onclick="setQuestionCount(10)">10 Questions</button>
+    <button onclick="setQuestionCount(20)">20 Questions</button>
+    <button onclick="setQuestionCount('all')">All Questions</button>
+  </div>
+
+  <script>
+    function setQuestionCount(count) {
+      localStorage.setItem("questionCount", count);
+      window.location.href = "quiz20.html"; 
+    }
+  </script>
+</body>
+</html>
