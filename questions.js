@@ -422,5 +422,152 @@ const questions = [
       "engaging themselves in recreational activities",
       "none of the above"
     ]
+  },
+  {
+    numb:36,
+    question: "36.According to the ability model, emotional intelligence consists of 4 abilities given below, except.",
+    options: [
+      "Perceiving emotions",
+      "Using emotions",
+      "Ignoring emotions",
+      "Understanding emotions",
+      "Managing emotions"
+    ],
+    answer:"Ignoring emotions"
+  },
+  {
+    numb:37,
+    question: "37.Who among the following gave the mixed model of intelligence and focused on the importance of emotional intelligence as compared to IQ?",
+    options: [
+      "Goleman",
+      "Maslow",
+      "Salovey and Mayer",
+      "Watson",
+      "Freud"
+    ],
+    answer:"Goleman"
+  },
+  {
+    numb:38,
+    question: "38.Which leadership style gives the message: 'try this'",
+    options: [
+      "Coercive",
+      "Authoritative",
+      "Democratic",
+      "Affiliative",
+      "Coaching"
+    ],
+    answer:"Coaching"
+  },
+  {
+     numb:39,
+    question: "39.Which of the following is not a trait of transformational leaders?",
+    options: [
+      "Idealized influence",
+      "Inspirational motivation",
+      "Coercive authority",
+      "Individualized consideration",
+      "Intellectual Stimulation"
+    ],
+    answer:"Coercive authority"
+  },
+  {
+     numb:40,
+    question: "40.___ is a social process by which emotions are shared collectively across a group in a social context.",
+    options: [
+      "Social emotion",
+      "Emotional labor",
+      "Emotional regulation",
+      "Emotional socialization",
+      "Emotional contagion"
+    ],
+    answer:"Emotional contagion"
+  },
+  {
+     numb:41,
+    question: "41.___ includes modifying initial feelings by changing the situation or cognitions of the situation",
+    options: [
+      "Response-focused regulation",
+      "Social regulation",
+      "Emotional labor",
+      "Antecedent-focused regulation",
+      "Social awareness"
+    ],
+    answer: "Antecedent-focused regulation"
+  },
+  {
+     numb:42,
+    question: "42.___ is when people change their outward emotional expressions without feeling the actual emotion they show.",
+    options: [
+      "deep acting",
+      "depth acting",
+      "surface acting",
+      "small acting",
+      "none of the above"
+    ],
+    answer:"surface acting"
+  },
+  {
+     numb:43,
+    question: "43.Which of the following leadership styles can result in people get overwhelmed & burnt out",
+    options: [
+      "Pace-setting",
+      "Coaching",
+      "Democratic",
+      "Affiliative",
+      "Authoritative"
+    ],
+    answer:"Pace-setting"
+  },
+  {
+     numb:44,
+    question: "44.___ is the public face of emotion in leadership.",
+    options: [
+      "Emotional awareness",
+      "Social regulation",
+      "Sympathy",
+      "Emotional labor",
+      "None of the above"
+    ],
+    answer:"Emotional labor"
+   
+  },
+  {
+     numb:45,
+    question: "45.Leaders high on empathy will prefer to use ___.",
+    options: [
+      "surface acting",
+      "sympathy",
+      "anger",
+      "deep acting",
+      "coercion"
+    ],
+    answer:"deep acting"
+  },
+  {
+     numb:46,
+    question: "46.Emotional intelligence is a crucial component of ___.",
+    options: [
+      "Analytical intelligence",
+      "Divergent thinking",
+      "Social intelligence",
+      "Convergent thinking",
+      "Creative interests"
+    ],
+    answer:"Social intelligence"
+  },
+  {
+     numb:47,
+    question: "47.Accurately labeling emotion is also called as ___.",
+    options: [
+      "Emotional expertise",
+      "Emotional awareness",
+      "Emotional contagion",
+      "Empathy",
+      "Emotional literacy"
+    ],
+    answer:"Emotional literacy"
   }
 ];
+
+
