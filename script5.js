@@ -1,66 +1,19 @@
 let current = 0;
 let score = 0;
 
-// Get question count from localStorage
-let selectedCount = localStorage.getItem("questionCount");
-let selectedQuestions = [];
+// Get the number of questions from URL parameter
+const params = new URLSearchParams(window.location.search);
+let totalQuestions = params.get('count');
 
-if (selectedCount === "all") {
-  selectedQuestions = questions;let current = 0;
-let score = 0;
-
-// Get the selected number of questions (default to all)
-let totalQuestions = parseInt(localStorage.getItem("numQuestions")) || questions.length;
-
-// Slice the questions array if needed
-let quizQuestions = questions.slice(0, totalQuestions);
-
-function loadQuestion() {
-  const q = quizQuestions[current];
-  document.getElementById("question").innerText = q.question;
-  const optionsDiv = document.getElementById("options");
-  optionsDiv.innerHTML = "";
-
-  q.options.forEach(opt => {
-    const btn = document.createElement("button");
-    btn.innerText = opt;
-    btn.classList.add("option-btn");
-    btn.onclick = () => checkAnswer(btn, opt);
-    optionsDiv.appendChild(btn);
-  });
-}
-
-function checkAnswer(button, selected) {
-  const correctAnswer = quizQuestions[current].answer;
-
-  const allButtons = document.querySelectorAll(".option-btn");
-  allButtons.forEach(btn => (btn.disabled = true));
-
-  if (selected === correctAnswer) {
-    button.style.backgroundColor = "#4CAF50";
-    score++;
-  } else {
-    button.style.backgroundColor = "#f44336";
-    allButtons.forEach(btn => {
-      if (btn.innerText === correctAnswer) btn.style.backgroundColor = "#4CAF50";
-    });
-  }
-
-  setTimeout(() => {
-    current++;
-    if (current < quizQuestions.length) loadQuestion();
-    else window.location.href = `result20.html?score=${score}`;
-  }, 1500);
-}
-
-window.onload = loadQuestion;
-
+// If 'all' is selected, use all questions
+if(totalQuestions === 'all') {
+  totalQuestions = questions.length;
 } else {
-  selectedQuestions = questions.slice(0, parseInt(selectedCount || questions.length));
+  totalQuestions = Math.min(parseInt(totalQuestions), questions.length);
 }
 
 function loadQuestion() {
-  const q = selectedQuestions[current];
+  const q = questions[current];
   document.getElementById("question").innerText = q.question;
   const optionsDiv = document.getElementById("options");
   optionsDiv.innerHTML = "";
@@ -75,28 +28,28 @@ function loadQuestion() {
 }
 
 function checkAnswer(button, selected) {
-  const correctAnswer = selectedQuestions[current].answer;
+  const correctAnswer = questions[current].answer;
 
-  const allButtons = document.querySelectorAll(".option-btn");
-  allButtons.forEach(btn => (btn.disabled = true));
+  // Disable all buttons
+  document.querySelectorAll(".option-btn").forEach(btn => btn.disabled = true);
 
+  // Color feedback
   if (selected === correctAnswer) {
-    button.style.backgroundColor = "#4CAF50";
+    button.style.backgroundColor = "#4CAF50"; // green
     score++;
   } else {
-    button.style.backgroundColor = "#f44336";
-    allButtons.forEach(btn => {
+    button.style.backgroundColor = "#f44336"; // red
+    document.querySelectorAll(".option-btn").forEach(btn => {
       if (btn.innerText === correctAnswer) btn.style.backgroundColor = "#4CAF50";
     });
   }
 
+  // Move to next question after 1.5 seconds
   setTimeout(() => {
     current++;
-    if (current < selectedQuestions.length) loadQuestion();
+    if (current < totalQuestions) loadQuestion();
     else window.location.href = `result20.html?score=${score}`;
   }, 1500);
 }
 
 window.onload = loadQuestion;
-
-
