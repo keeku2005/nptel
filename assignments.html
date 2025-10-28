@@ -2,36 +2,11 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>NPTEL Assignments</title>
   <link rel="stylesheet" href="style21.css">
-  <style>
-    .assignment-list {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 15px;
-      margin-top: 40px;
-    }
-    .assignment-card {
-      background: white;
-      padding: 20px;
-      border-radius: 12px;
-      width: 180px;
-      text-align: center;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-      transition: transform 0.2s, box-shadow 0.2s;
-    }
-    .assignment-card:hover {
-      transform: scale(1.05);
-      box-shadow: 0 0 15px rgba(0,0,0,0.2);
-    }
-    a {
-      text-decoration: none;
-      color: #007BFF;
-      font-weight: bold;
-    }
-  </style>
 </head>
+
 <body>
   <div class="container">
     <h1>NPTEL Course Assignments</h1>
@@ -45,6 +20,7 @@
   <script>
     const assignmentList = document.getElementById("assignmentList");
 
+    // Create 12 assignment cards dynamically
     for (let i = 1; i <= 12; i++) {
       const div = document.createElement("div");
       div.className = "assignment-card";
@@ -57,4 +33,3 @@
   </script>
 </body>
 </html>
-
