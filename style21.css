@@ -1,113 +1,148 @@
-/* ===== Global Reset ===== */
+/* ========== Global Reset ========== */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-/* ===== Body Styling ===== */
-body {
   font-family: "Poppins", sans-serif;
-  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
-  color: #333;
+}
+
+/* ========== Background & Layout ========== */
+html, body {
+  height: 100%;
+  background: linear-gradient(135deg, #dbeafe, #d1fae5); /* soft blue-green blend */
   display: flex;
-  justify-content: center;   /* centers horizontally */
-  align-items: center;       /* centers vertically */
-  min-height: 100vh;         /* fills entire screen height */
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  padding: 20px;
+  scroll-behavior: smooth;
 }
 
-/* ===== Container ===== */
+/* ========== Container ========== */
 .container {
-  background: white;
+  background: rgba(255, 255, 255, 0.95);
   width: 90%;
-  max-width: 900px;
-  padding: 30px;
+  max-width: 800px;
+  padding: 40px;
   border-radius: 20px;
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  overflow-y: auto;
+  max-height: 90vh;
+  backdrop-filter: blur(5px);
+  animation: fadeIn 0.8s ease-in-out;
 }
 
-/* ===== Headings ===== */
+/* Smooth fade-in animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.97); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+/* ========== Headings & Text ========== */
 h1 {
-  color: #2a4d69;
+  color: #1e3a8a; /* deep blue */
+  font-size: 32px;
   margin-bottom: 10px;
-  font-size: 1.8em;
+  letter-spacing: 1px;
 }
 
 p {
-  color: #555;
-  font-size: 1.1em;
-  margin-bottom: 25px;
+  color: #374151;
+  font-size: 18px;
+  margin-bottom: 30px;
 }
 
-/* ===== Assignment Cards ===== */
+/* ========== Assignment Cards ========== */
 .assignment-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 15px;
+  gap: 20px;
+  margin-bottom: 25px;
 }
 
 .assignment-card {
-  background: #f9f9f9;
-  border-radius: 12px;
-  padding: 18px;
+  background: #f9fafb;
+  border-radius: 14px;
+  padding: 20px;
   width: 180px;
   text-align: center;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  transition: transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .assignment-card:hover {
-  transform: scale(1.05);
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
+.assignment-card h3 {
+  color: #111827;
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+
+/* Button inside cards */
 .assignment-card a {
   display: inline-block;
-  text-decoration: none;
+  background: linear-gradient(135deg, #2563eb, #10b981);
   color: white;
-  background: #2a4d69;
-  padding: 8px 14px;
+  text-decoration: none;
+  padding: 10px 16px;
   border-radius: 8px;
-  margin-top: 10px;
-  transition: background 0.3s;
+  font-weight: 500;
+  transition: background 0.3s ease;
 }
 
 .assignment-card a:hover {
-  background: #1e3551;
+  background: linear-gradient(135deg, #1e40af, #059669);
 }
 
-/* ===== Back Button ===== */
+/* ========== Back to Home Button ========== */
 button {
-  background: #007bff;
+  background: linear-gradient(135deg, #3b82f6, #22c55e);
   color: white;
   border: none;
-  padding: 14px 28px;
-  margin-top: 30px;
-  border-radius: 10px;
+  padding: 14px 32px;
+  margin-top: 25px;
+  border-radius: 12px;
   cursor: pointer;
-  font-size: 16px;
-  transition: 0.3s;
+  font-size: 18px;
+  font-weight: 500;
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
 }
 
 button:hover {
-  background: #0056b3;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(34, 197, 94, 0.3);
 }
 
-/* ===== Responsive ===== */
+/* ========== Responsive Design (Phones) ========== */
 @media (max-width: 600px) {
   .container {
     width: 95%;
     padding: 25px;
+    max-height: 85vh;
+  }
+
+  h1 {
+    font-size: 26px;
+  }
+
+  p {
+    font-size: 17px;
   }
 
   .assignment-card {
     width: 100%;
+    padding: 18px;
   }
 
-  h1 {
-    font-size: 1.5em;
+  .assignment-card h3 {
+    font-size: 18px;
+  }
+
+  button {
+    font-size: 17px;
+    padding: 14px 28px;
   }
 }
