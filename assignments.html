@@ -12,6 +12,7 @@
     <h1>NPTEL Course Assignments</h1>
     <p>Click on any assignment to view its PDF.</p>
 
+    <!-- Assignment cards will appear here -->
     <div class="assignment-list" id="assignmentList"></div>
 
     <button onclick="window.location.href='index.html'">🏠 Back to Home</button>
@@ -20,13 +21,17 @@
   <script>
     const assignmentList = document.getElementById("assignmentList");
 
-    // Create 12 assignment cards dynamically
+    // 🌟 Version tag to prevent old PDF cache
+    // Change this number whenever you update PDFs in GitHub
+    const version = "v3";
+
+    // Generate 12 assignment cards dynamically
     for (let i = 1; i <= 12; i++) {
       const div = document.createElement("div");
       div.className = "assignment-card";
       div.innerHTML = `
         <h3>Assignment ${i}</h3>
-        <a href="pdfs/assignment${i}.pdf" target="_blank">Open PDF</a>
+        <a href="pdfs/assignment${i}.pdf?${version}" target="_blank">Open PDF</a>
       `;
       assignmentList.appendChild(div);
     }
