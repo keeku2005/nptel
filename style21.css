@@ -1,6 +1,6 @@
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: #f0f4f8;
+  background-color: #f0f3f6;
   text-align: center;
   margin: 0;
   padding: 0;
@@ -11,7 +11,7 @@ body {
 }
 
 .container, .quiz-container {
-  background: #fff;
+  background: #3dcc76;
   width: 90%;
   max-width: 550px;  /* slightly bigger */
   padding: 35px;
