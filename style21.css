@@ -90,3 +90,20 @@ button:hover {
     padding: 18px;
   }
 }
+/* ===== Quiz Answer Colors (Normal and Clear) ===== */
+.correct {
+  background-color: #4CAF50 !important; /* Normal green */
+  color: white !important;
+}
+
+.wrong {
+  background-color: #f44336 !important; /* Normal red */
+  color: white !important;
+}
+
+/* Keep hover effect for other buttons */
+.option-btn:hover:not(.correct):not(.wrong) {
+  background-color: #cfe0ff;
+}
+
+
